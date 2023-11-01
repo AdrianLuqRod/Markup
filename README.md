@@ -1,2 +1,2 @@
 # Markup
-Any content related to any markup languajes will be in here.
+Any content related to any markup languages will be in here.
