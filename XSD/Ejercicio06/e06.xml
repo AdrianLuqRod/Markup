@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="e06.xsd"?>
+<matriculacion>
+    <curso_academico>2020/2021</curso_academico>
+    <matricula>
+        <datos_personales>
+            <dni>99223366M</dni>
+            <nombre>Juan Pardo Martín</nombre>
+            <titulacion>Ingeniería Informática</titulacion>
+            <domicilios>
+                <domicilio>
+                    <nombre>C/ Principal nº1</nombre>
+                </domicilio>
+                <domicilio>
+                    <nombre>C/ Secundaria nº2</nombre>
+                </domicilio>
+            </domicilios>
+        </datos_personales>
+        <pago>
+            <tipo_matricula>Matrícula Ordinaria</tipo_matricula>
+            <fecha_pago>2021-01-24</fecha_pago>
+            <tipo_pago>
+                <efectivo>648.12</efectivo>
+            </tipo_pago>
+        </pago>
+    </matricula>
+</matriculacion>

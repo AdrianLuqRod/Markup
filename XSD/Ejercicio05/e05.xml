@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="e05.xsd"?>
+<catalogo>
+    <modelo>
+        <id_modelo>QWZ5671</id_modelo>
+        <precio>39.95</precio>
+        <tallas>
+            <medium>
+                <color>Red</color>
+                <color>Blue</color>
+            </medium>
+            <large>
+                <color>Red</color>
+                <color>Burgundy</color>
+            </large>
+        </tallas>
+    </modelo>
+    <opiniones>
+        <opinion>Muy ponible en cualquier situación</opinion>
+    </opiniones>
+</catalogo>
