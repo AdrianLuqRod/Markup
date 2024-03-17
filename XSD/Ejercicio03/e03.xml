@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="e03.xsd"?>
-<periodico>
+<periodico xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="e03.xsd">
     <articulo>
         <titulo>Asalto al Capitolio</titulo>
         <subtitulo>Cuernos en la democracia estadounidense</subtitulo>

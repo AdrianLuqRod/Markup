@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="e04.xsd"?>
-<catalogo>
+<catalogo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="e04.xsd">
     <producto>
         <nombre>Teclado inalámbrico Zeus 23Q</nombre>
         <vendedor>Todo Teclados</vendedor>

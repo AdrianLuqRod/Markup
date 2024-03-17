@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="e05.xsd"?>
-<catalogo>
+<catalogo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="e05.xsd">
     <modelo>
         <id_modelo>QWZ5671</id_modelo>
         <precio>39.95</precio>
