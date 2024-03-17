@@ -3,16 +3,16 @@
     <xs:element name="html">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="head">
+                <xs:element name="head" minOccurs="0">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element name="title" type="xs:string" />
+                            <xs:element name="title" minOccurs="0" type="xs:string" />
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
-                <xs:element name="body">
+                <xs:element name="body" minOccurs="0">
                     <xs:complexType>
-                        <xs:sequence>
+                        <xs:choice minOccurs="0" maxOccurs="unbounded">
                             <xs:element name="h1" type="xs:string" />
                             <xs:element name="h2" type="xs:string" />
                             <xs:element name="p">
@@ -22,7 +22,7 @@
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
-                        </xs:sequence>
+                        </xs:choice>
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>

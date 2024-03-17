@@ -8,8 +8,8 @@
                         <xs:sequence>
                             <xs:element name="nombre" type="xs:string" />
                             <xs:element name="vendedor" minOccurs="0" type="xs:string" />
-                            <xs:element name="precio" type="xs:string" />
-                            <xs:element name="detalle" minOccurs="0" type="xs:string" />
+                            <xs:element name="precio" type="xs:decimal" />
+                            <xs:element name="detalle" minOccurs="0" maxOccurs="unbounded" type="xs:string" />
                             <xs:element name="opiniones" minOccurs="0">
                                 <xs:complexType>
                                     <xs:sequence>

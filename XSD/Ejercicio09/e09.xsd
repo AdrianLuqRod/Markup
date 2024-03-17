@@ -20,14 +20,14 @@
                                                     <xs:element name="reparaciones" minOccurs="0">
                                                         <xs:complexType>
                                                             <xs:sequence>
-                                                                <xs:element name="reparacion">
+                                                                <xs:element name="reparacion" maxOccurs="unbounded">
                                                                     <xs:complexType>
                                                                         <xs:sequence>
-                                                                            <xs:element name="fecha" type="xs:string" />
+                                                                            <xs:element name="fecha" type="xs:date" />
                                                                             <xs:element name="descripcion" type="xs:string" />
                                                                             <xs:element name="solucion" type="xs:string" />
                                                                         </xs:sequence>
-                                                                        <xs:attribute name="numHoras" type="xs:integer" use="required" />
+                                                                        <xs:attribute name="numHoras" type="xs:integer" default="1" />
                                                                     </xs:complexType>
                                                                 </xs:element>
                                                             </xs:sequence>

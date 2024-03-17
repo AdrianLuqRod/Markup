@@ -7,18 +7,25 @@
                     <xs:complexType>
                         <xs:sequence>
                             <xs:element name="id_modelo" type="xs:string" />
-                            <xs:element name="precio" type="xs:string" />
+                            <xs:element name="precio" type="xs:decimal" />
                             <xs:element name="tallas">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="medium">
+                                        <xs:element name="small" minOccurs="0">
                                             <xs:complexType>
                                                 <xs:sequence>
                                                     <xs:element name="color" maxOccurs="unbounded" type="xs:string" />
                                                 </xs:sequence>
                                             </xs:complexType>
                                         </xs:element>
-                                        <xs:element name="large">
+                                        <xs:element name="medium" minOccurs="0">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="color" maxOccurs="unbounded" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="large" minOccurs="0">
                                             <xs:complexType>
                                                 <xs:sequence>
                                                     <xs:element name="color" maxOccurs="unbounded" type="xs:string" />
@@ -31,10 +38,10 @@
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
-                <xs:element name="opiniones">
+                <xs:element name="opiniones" minOccurs="0">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element name="opinion" type="xs:string" />
+                            <xs:element name="opinion" minOccurs="1" maxOccurs="unbounded" type="xs:string" />
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>

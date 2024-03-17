@@ -6,7 +6,7 @@
                 <xs:element name="banda" type="xs:string" />
                 <xs:element name="titulo" type="xs:string" />
                 <xs:element name="letra" type="xs:string" />
-                <xs:element name="fecha-lanzamiento" type="xs:string" />
+                <xs:element name="fecha-lanzamiento" type="xs:integer" />
             </xs:sequence>
         </xs:complexType>
     </xs:element>
